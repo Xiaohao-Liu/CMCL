@@ -22,18 +22,25 @@
   
 ## 🌟 Overview
 
+<p align = "justify">
 Multimodal Contrastive Learning (MCL) has revolutionized the field by enabling effective alignment between different modalities and generating powerful multimodal representations in a joint space. By leveraging contrastive learning across diverse modalities, large-scale multimodal data significantly enhances representational quality. 
 However, a critical yet often overlooked challenge remains: multimodal data is rarely collected in a single process, and training from scratch is computationally expensive. Instead, emergent multimodal data can be used to optimize existing models gradually, *i.e.*, models are trained on a sequence of modality pair data. We define this problem as **Continual Multimodal Contrastive Learning (CMCL)**, an underexplored yet crucial research direction at the intersection of multimodal and continual learning.
 In this paper, we formulate CMCL through two specialized principles of stability and plasticity. We theoretically derive a novel optimization-based method, which projects updated gradients from dual sides onto subspaces where any gradient is prevented from interfering with the previously learned knowledge. Two upper bounds provide theoretical insights on both stability and plasticity in our solution. Beyond our theoretical contributions, we conduct experiments on multiple datasets by comparing our method against advanced continual learning baselines. The empirical results further support our claims and demonstrate the efficacy of our method. 
+</p>
 
+<p align = "justify">
 This repository provides the implementation of the CMCL framework, including datasets, models, and evaluation scripts to replicate and extend the results from the paper.
+</p>
 
 ### 🎯 Dual-sided Null Space (DNS) 
 
-<center><img src="images/dns.png" width=500px></center>
+<center><img src="images/dns.png" width=500px>
 
 **The paradigm of the proposed method (DNS) for CMCL**. 
+</center>
+<p align = "justify">
 At the current step $t$, gradients ($\nabla\mathbf{W}\_{t}^{m_1}$ and  $\nabla\mathbf{W}\_{t}^{m_1}$) derived by contrastive learning between modalities $m_1$ and $m_2$ are projected from dual sides to $\Delta\mathbf{W}\_{t}^{m_1}$ and  $\Delta\mathbf{W}\_{t}^{m_1}$. The projectors are built upon the features from the previous steps to constrain the gradients. By substituting for the gradients, model parameters are optimized from new modality pair data while retraining the prior knowledge.
+<p>
 
 ## 🚀 Getting Started
 
