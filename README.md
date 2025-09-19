@@ -95,6 +95,19 @@ CUDA_VISIBLE_DEVICES=0 python training.py \
 CUDA_VISIBLE_DEVICES=0,1,2,3 python3 training_p.py
 ```
 
+## Citations
+
+If you find this repository helpful, please cite our paper.
+
+```
+@article{CMCL,
+  title={Continual multimodal contrastive learning},
+  author={Liu, Xiaohao and Xia, Xiaobo and Ng, See-Kiong and Chua, Tat-Seng},
+  journal={arXiv preprint arXiv:2503.14963},
+  year={2025}
+}
+```
+
 ---
 
 <div align=center>
