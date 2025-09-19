@@ -33,7 +33,7 @@ This repository provides the implementation of the CMCL framework, including dat
 <center><img src="images/dns.png" width=500px></center>
 
 **The paradigm of the proposed method (DNS) for CMCL**. 
-At the current step $t$, gradients ($\nabla\mathbf{W}_{t}^{m_1}$ and  $\nabla\mathbf{W}_{t}^{m_1}$) derived by contrastive learning between modalities $m_1$ and $m_2$ are projected from dual sides to $\Delta\mathbf{W}_{t}^{m_1}$ and  $\Delta\mathbf{W}_{t}^{m_1}$. The projectors are built upon the features from the previous steps to constrain the gradients. By substituting for the gradients, model parameters are optimized from new modality pair data while retraining the prior knowledge.
+At the current step $t$, gradients ($\nabla\mathbf{W}\_{t}^{m_1}$ and  $\nabla\mathbf{W}\_{t}^{m_1}$) derived by contrastive learning between modalities $m_1$ and $m_2$ are projected from dual sides to $\Delta\mathbf{W}\_{t}^{m_1}$ and  $\Delta\mathbf{W}\_{t}^{m_1}$. The projectors are built upon the features from the previous steps to constrain the gradients. By substituting for the gradients, model parameters are optimized from new modality pair data while retraining the prior knowledge.
 
 ## 🚀 Getting Started
 
