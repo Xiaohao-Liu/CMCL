@@ -10,7 +10,7 @@
       Xiaohao Liu,
       Xiaobo Xia,
       See-Kiong Ng,
-      Tat-seng Chua
+      Tat-Seng Chua
 </div>
 <div>
   National University of Singapore
