@@ -3,7 +3,7 @@
 <h1><a href="https://arxiv.org/pdf/2503.14963">Continual Multimodal Contrastive Learning (CMCL)</a></h1>
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![License](https://img.shields.io/badge/Accepted-NeurIPS25-purple)
+![License](https://img.shields.io/badge/Accepted-NeurIPS'2025-purple)
 
 <h5 align="center">
 <div>
