@@ -45,12 +45,7 @@ def generate_commands(
                     "clotho",
                     "vggsound_s:0,1", "vggsound_s:0,2", "vggsound_s:1,2", 
                     "tvl:0,2", "tvl:1,2", "tvl:0,1",
-                    "llvip",
-                    "flir",
-                    "audiocaps",
-                    "audioset",
-                    "coco",
-                    "imagenet",
+                    "llvip"
                 ])
             ],
             "seed": [1,2,3,4,5,6,7,8,9,10]

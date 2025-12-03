@@ -871,11 +871,6 @@ DATASETS = {
     "clotho": Clotho, # 2 modalities, recall
     "tvl": TVL, # 3 modalities, recall
     "llvip": LLVIP, # bug 2 modalities, recall
-    "flir": FLIR, # 2 modalities, acc 
-    "audiocaps": AudioCaps, # 2 modalities, recall
-    "audioset": AudioSet, # 2 modalities, map
-    "coco": COCO, # 2 modalities, recall
-    "imagenet": ImageNet, # 2 modalities, acc
     }
 
 if __name__ == "__main__":

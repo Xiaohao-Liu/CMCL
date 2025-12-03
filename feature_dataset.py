@@ -39,7 +39,7 @@ class FeatureDataset(AvalancheDataset):
         self.classes_name = list(classes_set)
         self.classes_name.sort()
         self.classes_map = classes_map      
-        if self.dataset_name_d in ["nyudv2", "msr_vtt", "vggsound_s", "ave", "caltech101", "ucf101", "esc50", "audioset", "imagenet"]:  
+        if self.dataset_name_d in ["nyudv2", "vggsound_s", "ucf101", "esc50"]:  
             self.class_matrix()
     
     def class_matrix(self):

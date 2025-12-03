@@ -77,12 +77,7 @@ def main(
         "clotho",
         "vggsound_s:0,1", "vggsound_s:0,2", "vggsound_s:1,2", 
         "tvl:0,2", "tvl:1,2", "tvl:0,1",
-        "llvip",
-        "flir",
-        "audiocaps",
-        "audioset",
-        "coco",
-        "imagenet",
+        "llvip"
     ]),
     log_name = "full_train_test",
     only_statistics = False,
