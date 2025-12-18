@@ -866,11 +866,11 @@ class FLIR(MultiModalPairedDataLoaderBase):
 DATASETS = {
     "ucf101": UCF101, # 2 modalities, acc
     "esc50": ESC50, # 2 modalities, acc
-    "nyudv2": NYUDv2, # 3 modalities, recall & acc
+    "nyudv2": NYUDv2, # 3 modalities, recall
     "vggsound_s": VGGSound_S, # 3 modalities, recall & acc
     "clotho": Clotho, # 2 modalities, recall
     "tvl": TVL, # 3 modalities, recall
-    "llvip": LLVIP, # bug 2 modalities, recall
+    "llvip": LLVIP, # 2 modalities, recall
     }
 
 if __name__ == "__main__":
